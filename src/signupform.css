@@ -1,0 +1,43 @@
+.body {
+  font-family: Arial, sans-serif;
+  background-color: #60adc5;
+  color: #333;
+}
+
+.form-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.input-group {
+  margin-bottom: 15px;
+}
+
+.animated-input {
+  width: 100;
+  padding: 100px;
+  border: 10px;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+  ;
+}
+
+.animated-input:focus {
+  border-color: #61dafb;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.submit-button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
